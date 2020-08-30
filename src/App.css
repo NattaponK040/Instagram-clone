@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,40 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+* {
+  margin: 0;
+}
+
+.app{
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.app__header{
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__sigup {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__headerImage{
+  object-fit: contain;
+}
+
+.app__sigup input{
+  text-align: center;
+}
+
+.app__posts{
+  padding: 20px;
 }
